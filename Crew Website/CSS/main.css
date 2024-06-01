@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(128, 192, 192);
+}
+
+#leaderconnect{
+    text-align: right;
+}
+
+.icon{
+    width: 50;
+    height: 50;
+}
+
+#profile{
+    width: 300;
+}
+
+main{
+    text-align: center;
+    font-size: large;
+}
+
+.button{
+    color: rgb(39, 77, 148);
+    background-color: rgb(100, 231, 231);
+    border-radius: 10px;
+    width: 150;
+    height: 50;
+}
