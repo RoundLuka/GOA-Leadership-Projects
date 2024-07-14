@@ -75,7 +75,7 @@ def slot_machine(rows,cols,symbols):
     result = []
     for r in range(rows):
         row = []
-        for c in range(cols):
+        for _ in range(cols):
             roll = random.randint(0,2)
             symbol = symbols[roll]
             row.append(symbol)
