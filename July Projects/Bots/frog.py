@@ -86,4 +86,4 @@ async def roll(ctx):
 
 
 
-client.run('MTI2NDE0MzA5MjQ4NzgxOTMzNg.G8mWH2.d-9rbyHAdoHn_lX2INXFaOP2VZ7Cg2NfzuI_n4')
+client.run('')
