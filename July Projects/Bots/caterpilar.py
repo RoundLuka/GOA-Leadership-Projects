@@ -88,4 +88,4 @@ async def roll(ctx):
 
 
 
-client.run('')
+client.run('ExampleToken')
