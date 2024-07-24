@@ -43,20 +43,35 @@ async def caterpilar(ctx):
 @client.command()
 async def joke(ctx):
     jokes = [
-        "Why dont scientists trust atoms? Because they make up everything!",
-        "Why did the scarecrow win an award? Because he was outstanding in his field!",
-        "Why dont skeletons fight each other? They dont have the guts."
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why don't skeletons fight each other? They don't have the guts.",
+    "Why was the math book sad? Because it had too many problems.",
+    "Why don't some couples go to the gym? Because some relationships don't work out.",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "Why was the computer cold? It left its Windows open.",
+    "Why do cows have hooves instead of feet? Because they lactose.",
+    "Why did the golfer bring an extra pair of pants? In case he got a hole in one."
     ]
+
     await ctx.send("Wiggle wiggle! 🐛" + random.choice(jokes))
 
 #quote
 @client.command()
 async def quote(ctx):
     quotes = [
-        "Believe you can and you're halfway there. Theodore Roosevelt",
-        "The only way to do great work is to love what you do. Steve Jobs",
-        "The best time to plant a tree was 20 years ago. The second best time is now. Chinese Proverb"
-    ]
+    "The only limit to our realization of tomorrow is our doubts of today. Franklin D. Roosevelt",
+    "The purpose of our lives is to be happy. Dalai Lama",
+    "Life is what happens when you're busy making other plans. John Lennon",
+    "Get busy living or get busy dying. Stephen King",
+    "You have within you right now, everything you need to deal with whatever the world can throw at you. Brian Tracy",
+    "Believe you can and you're halfway there. Theodore Roosevelt",
+    "The only way to do great work is to love what you do. Steve Jobs",
+    "The best time to plant a tree was 20 years ago. The second best time is now. Chinese Proverb",
+    "Your time is limited, don't waste it living someone else's life. Steve Jobs",
+    "The only impossible journey is the one you never begin. Tony Robbins"
+    ]   
     await ctx.send("Wiggle wiggle! 🐛" + random.choice(quotes))
 
 #roll
