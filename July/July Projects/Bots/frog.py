@@ -101,4 +101,4 @@ async def roll(ctx):
 
 
 
-client.run('ExampleToken')
+client.run('MTI2NDE0MzA5MjQ4NzgxOTMzNg.G0sCtN.mkmeqGr6S-cv9JyCASdcvuHh5M5tuoJVsW7WFI')
