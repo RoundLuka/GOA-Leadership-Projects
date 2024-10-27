@@ -1,0 +1,25 @@
+Project: Goa Database
+
+Overview
+Create a website for users to sign in and manage information about Goa’s students. Users can select roles: Viewer or Moderator.
+
+ Features
+ 1. Sign-In Page
+    - Design a simple sign-in form with a dropdown to select a role: Viewer or Moderator.
+
+ 2. Data Structure
+    - Use arrays to organise student information, including names, mothers' names, Facebook accounts, ages, and group leaders.
+
+ 3. Viewer Role
+    - Viewers can only access and view tables of students by group.
+
+ 4. Moderator Role
+    - Moderators can add, edit, and remove students..
+
+ 5. User Interface
+    - Use HTML and CSS for a clean layout, including sections for the sign-in form and student tables.
+
+ 6. Functionality
+    - Implement basic functions for adding, editing, and removing students.
+
+მინიშნება - თუ js ცოტა დაბალ დონეზე იცით, შეგიძლიათ form ელემენტში გამოიყენოთ contenteditable="true", როდესაც ეს დაყენებული იქნება true-ზე, მომხარებელი შეძლებს form-ის დაედითებას, თუ დაყენებული იქნება false-ზე, მაშინ ვერ შეძლებს.

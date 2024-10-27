@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(127, 255, 180, 0.438);
+    margin: 0;
+}
+
+@media (max-width: 4000px) {
+    header {
+        width: 100%;
+        background-color: rgba(127, 255, 180, 0.596);
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #Travel-Mark {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 15px;
+    }
+    
+    
+    #Travel-Mark:hover {
+        box-shadow: 0 0 15px rgba(127, 255, 180, 0.945);
+    }
+    
+    
+    #Travel-Mark h1 {
+        color: rgba(127, 255, 180, 0.945);
+        font-family: Roboto;
+    }
+    
+    
+    #owl {
+        width: 100px;
+        border-radius: 20px;
+    }
+    
+    #menu {
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+    
+    
+    #menu a {
+        text-decoration: none;
+    }
+    
+    #main-menu {
+        display: none;
+    }
+    #menu svg {
+        width: 50px;
+        margin-right: 50px;
+        color: black;
+        fill: rgba(127, 255, 180, 0.945);
+    
+        transition: 150ms;
+    }
+    
+    #menu svg:hover {
+        width: 60px;
+        box-shadow: 0px 0px 15px rgba(127, 255, 180, 0.945);
+    }
+    
+    
+    #menu svg:active {
+        background-color: rgba(127, 255, 180, 0.596);
+        border: 1px dashed rgba(127, 255, 180, 0.596);
+    }
+    
+    #menu-option {
+        display: flex;
+    
+    
+        margin-left: 400px;
+        gap: 30px;
+    }
+    
+    
+    .interButton{
+        width: 200px;
+        height: 60px;
+    
+        border-radius: 20px;
+        border: 1px solid rgba(127, 255, 180, 0.945);
+    
+        background-color: rgba(127, 255, 180, 0.945);
+        color: rgba(127, 255, 180, 0.945);
+    
+        font-family: Roboto;
+        font-size: 30px;
+    
+        padding: 10px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    #menu-option  svg {
+        width: 50px;
+    }
+    
+    
+    .interButton:hover {
+        box-shadow: 0 0 15px rgba(127, 255, 180, 0.945);
+    }
+    
+    
+    .interButton:active {
+        box-shadow: 0 0 15px rgba(127, 255, 180, 0.945);
+        background-color: rgba(127, 255, 180, 0.596);
+        border: 1px dashed rgba(127, 255, 180, 0.596);
+    }
+    
+    main {
+
+        background-color: rgba(127, 255, 180, 0.438);
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #intro {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #intro h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+    
+        color: rgba(127, 255, 180, 0.596);
+    }
+    
+    #intro svg {
+        width: 100px;
+    }
+    
+    .newBlog {
+        background-color: rgba(127, 255, 180, 0.596);
+        color: rgba(127, 255, 180, 0.945);
+
+        border-radius: 15px;
+        border: 1px solid rgba(127, 255, 180, 0.596);
+    
+        padding: 30px;
+
+        font-size: 25px;
+    }
+    .newBlog input{
+        width: 200px;
+        height: 50px;
+
+        border-radius: 15px;
+        background-color: rgba(127, 255, 180, 0.596);
+        color: rgba(127, 255, 180, 0.945);
+
+        font-size: 25px;
+        font-family: Roboto;
+
+        margin-right: 5%;
+    }
+
+    #imgInput {
+        font-size: 12px;
+    }
+
+    .newBlog label {
+        position: relative;
+        left: 6%;
+    }
+
+    .newBlog textarea {
+        font-size: 20px;
+
+        background-color: rgba(127, 255, 180, 0.596);
+    
+        border-radius: 15px;
+        border: 1px solid rgba(127, 255, 180, 0.596);
+    
+        padding: 25px;
+    }
+
+    .newBlog button {
+        width: 200px;
+        height: 60px;
+    
+        border-radius: 20px;
+        border: 1px solid rgba(127, 255, 180, 0.945);
+    
+        background-color: rgba(127, 255, 180, 0.945);
+        color: rgba(127, 255, 180, 0.945);
+    
+        font-family: Roboto;
+        font-size: 30px;
+    
+        padding: 10px;
+        
+        margin-left: 5%;
+    }
+
+    .newBlog button:hover { 
+        box-shadow: 0 0 15px rgba(127, 255, 180, 0.945);
+    }
+    
+    
+    .newBlog button:active {
+        box-shadow: 0 0 15px rgba(127, 255, 180, 0.945);
+        background-color: rgba(127, 255, 180, 0.596);
+        border: 1px dashed rgba(127, 255, 180, 0.596);
+    }
+
+    #content {
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-left: 25%;
+        gap: 30px;
+        
+        overflow: auto;
+    }
+    
+    .blog-post {
+
+        background-color: rgba(127, 255, 180, 0.596);
+    
+        border-radius: 15px;
+        border: 1px solid rgba(127, 255, 180, 0.596);
+    
+        padding: 25px;
+    }
+    
+    .blog-post:hover {
+        
+        box-shadow: 0 0 30px rgba(127, 255, 180, 0.596);
+    
+        transition: 1s;
+    }
+    
+
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+    
+    .blog-content {
+        margin-top: 25px;
+        
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .profile img {
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .profile h4 {
+        margin-left: 50px;
+    
+        font-family: Roboto;
+        font-size: 25px;
+        
+        color: rgba(127, 255, 180, 0.596);
+    }
+    
+    .profile svg {
+        margin-left: 300px;
+        fill: rgba(127, 255, 180, 0.596);
+    }
+    
+}
+
+@media (max-width: 1825px) {
+    #menu-option {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1725px) {
+    #menu-option {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1690px) {
+    #menu-option {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #menu {
+        margin-right: 50px;
+    }
+    #menu-option {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    #menu {
+        margin-right: 25px;
+    }
+    #menu-option {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 1340px) {
+    #menu #main-menu {
+        display: block;
+    }
+    #menu a {
+        display: none;
+    }
+    #menu-option {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    #menu {
+        margin-right: 30px;
+    }
+    #menu-option button {
+        width: 150px;
+    }
+    .profile h4 {
+        margin-left: 45px;
+    }
+    .intro h2 {
+        font-size: 37;
+    }
+    .intro svg {
+        width: 90px;
+    }
+}
+@media (max-width: 825px) {
+    #menu {
+        margin-right: 27px;
+    }
+    .profile img {
+        width: 150px;
+    }
+    .profile h4 {
+        margin-left: 30px;
+    }
+    .intro h2 {
+        font-size: 34;
+    }
+    .intro svg {
+        width: 80px;
+    }
+}
+@media (max-width: 750px) {
+    #menu {
+        margin-right: 23px;
+    }
+    #menu-option button {
+        width: 100px;
+    }
+    .intro svg {
+        width: 70px;
+    }
+}
+@media (max-width: 650px) {
+    #menu {
+        margin-right: 15px;
+    }
+    #menu-option button {
+        width: 75px;
+    }
+    .profile img {
+        width: 125px;
+    }
+    .profile h4 {
+        margin-left: 25px;
+    }
+    .intro h2 {
+        font-size: 30px;
+    }
+    .intro svg {
+        width: 60px;
+    }
+}
+@media (max-width: 550px) {
+    #menu {
+        margin-right: 10px;
+    }
+    #menu-option button {
+        width: 50px;
+    }
+    #content {
+        height: 1400px;
+    }
+    .profile img {
+        width: 100px;
+    }
+    .profile h4 {
+        margin-left: 20px;
+    }
+    .intro h2 {
+        font-size: 25px;
+    }
+    .intro svg {
+        width: 50px;
+    }
+}
+@media (max-width: 550px) {
+    #menu {
+        margin-right: 5px;
+    }
+    #menu-option button {
+        width: 50px;
+    }
+    .profile img {
+        width: 100px;
+    }
+    .profile h4 {
+        margin-left: 20px;
+    }
+    .intro h2 {
+        font-size: 25px;
+    }
+    .intro svg {
+        display: none;
+    }
+}
