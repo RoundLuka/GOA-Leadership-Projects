@@ -7,6 +7,7 @@ Input: A list of integers (e.g., [-1, 0, 1, 2, -1, -4]).
 Output: A list of unique triplets that sum to zero.
 """
 
+
 def zero_triplets(arr):
     triplets = []
     for i in arr:
@@ -15,11 +16,6 @@ def zero_triplets(arr):
                 if i + j + k == 0:
                     triplets.append([i, j, k])
     
-    filtered = []
-    for triplet in triplet:
-        filtered.append(str(triplet))
-        
-
     return triplets
 
 # Test Cases:

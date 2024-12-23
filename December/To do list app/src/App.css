@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+header {
+  background-color: #388E3C; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#root {
+  background-color: white;
+  width: 100%;
+  max-width: 570px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:hover {
+  border-color: #388E3C; 
+}
+
+button {
+  background-color: #388E3C; 
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2C6A32; 
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f8f8; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #ececec; 
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+button.remove {
+  background-color: #E53935; 
+  color: white;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button.remove:hover {
+  background-color: #C62828; 
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 26px;
+  }
+
+  #root {
+    width: 90%;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+}
